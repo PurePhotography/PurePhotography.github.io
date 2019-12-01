@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1" rel="stylesheet">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="icon" href="#" type="image/x-icon">
+<meta charset="utf-8">
+</head>
+
+<body>
+  <header>
+    <a href="../cc/Index.html" class="logo">Computing Cave</a>
+    <div class="menu-toggle"></div>
+    <nav>
+      <ul>
+        <li><a href="../cc/Index.html">Home</a></li>
+        <li><a href="../cc/About.html">About</a></li>
+        <li><a href="../cc/Services.html">Services</a></li>
+        <li><a href="../cc/Team.html">Team</a></li>
+        <li><a href="../cc/Portfolio.html">Portfolio</a></li>
+        <li><a href="../cc/Contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="clearfix">
+  </header>
+<h1>Contact</h1>
+</body>
+
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.menu-toggle').click(function(){
+        $('.menu-toggle').toggleClass('active')
+        $('nav').toggleClass('active')
+      })
+    })
+  </script>
+</html>
